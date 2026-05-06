@@ -143,7 +143,7 @@ const ProjectDetails = () => {
             <form onSubmit={handleCreateTask}>
               <div className="form-group" style={{ marginBottom: '16px' }}>
                 <label>Task Title</label>
-                <input required value={title} onChange={(e) => setTitle(e.target.value)} />
+                <input value={title} onChange={(e) => setTitle(e.target.value)} />
               </div>
               <div className="form-group" style={{ marginBottom: '16px' }}>
                 <label>Description</label>
