@@ -343,8 +343,10 @@ label {
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  overflow-y: auto;
+  padding: 40px 20px;
   z-index: 100;
   animation: fadeIn 0.2s ease;
 }
@@ -353,6 +355,7 @@ label {
   width: 100%;
   max-width: 500px;
   padding: 30px;
+  margin: auto;
 }
 
 .modal-header {
